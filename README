@@ -1,0 +1,32 @@
+Description:
+
+This code randomly selects 4 images from each of the 4 directories train3, val3, train2, and val2. The images are then displayed in a 4x4 grid, with the name of the directory below each image.
+
+Imports:
+
+    os is used to access the file system.
+    matplotlib.image is used to read and display images.
+    random is used to randomly select images from the directories.
+
+Variables:
+
+    path_list is a list of the 4 directories.
+    name_list is a list of the names of the directories.
+    num_imgs is the number of images to display from each directory.
+    files_list is a list of the files in each directory.
+    image is the current image being displayed.
+    m is the index of the current image.
+
+Functions:
+
+    os.walk() is used to recursively iterate through the directories.
+    mpimg.imread() is used to read an image from a file.
+    plt.subplot() is used to create a subplot in a grid.
+    plt.imshow() is used to display an image.
+    plt.title() is used to add a title to an image.
+    plt.axis('off') is used to hide the axes of an image.
+
+Output:
+
+The output of the code is a 4x4 grid of images, with the name of the directory below each image.
+
