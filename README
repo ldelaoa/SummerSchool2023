@@ -1,5 +1,7 @@
-Description:
+This code is a suggestion for HelloWorldDeepLearning_2_Thorax_AP-LAT.ipnyb at this section:
+".... and try to figure out what is going on by inspecting the data in TRAIN2/VAL2 and TRAIN3/VAL3 more closely."
 
+Description:
 This code randomly selects 4 images from each of the 4 directories train3, val3, train2, and val2. The images are then displayed in a 4x4 grid, with the name of the directory below each image.
 
 Imports:
